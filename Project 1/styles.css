@@ -1,0 +1,52 @@
+header{
+    background-color: #f4f4f4a4;
+    border-bottom:  5px dotted black;
+}
+
+#blogbody{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.postcard{
+    border: 1px solid gray;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: #f4f4f4a4;
+    margin: 1%;
+
+}
+/* #blogbody>div{
+    border: 1px solid gray;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: #f4f4f4a4;
+    margin: 1%;
+
+} */
+
+#posting{
+    padding: 5%;
+    margin-top: 5%;
+    text-align: center;
+    border-top: 1px solid;
+    background-color: #f4f4f4a4;
+
+}
+#postinput{
+    border: 1px solid gray;
+    margin: auto;
+    padding: 2%;
+
+}
+#postinput>input{
+    text-align: center;
+    margin: 0.25%;
+    height: 1%;
+
+
+}
+footer{
+    text-align: center;
+}

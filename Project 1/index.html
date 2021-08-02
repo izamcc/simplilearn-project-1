@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Bootstrab links -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- css file import -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- JavaScript file import -->
+    <script type="text/javascript" src="./index.js"></script>
+    <!-- page title -->
+    <title>Compony blog page</title>
+</head>
+<body>
+    <!-- BootStrap links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+
+    <header>
+        <div class="row text-center">
+            <div class="col-2">
+                <img src="./img/logoplaceholder.png" alt="compony logo" class="mx-auto d-block">
+            </div>
+            <div class="col-10">
+                <div class="row"><h1>COMPONY NAME </h1> </div>
+                <div class="row"><h3>BLOG PAGE </h3> </div>
+            </div>
+        </div>
+    </header>
+    <div id="blogbody">
+        <div class="postcard">
+            <div class="row text-center">
+                <div class="col-2">
+                    <img src="./img/MProfile.png" alt="profile picture" class="img-fluid">
+                    <h4>NAME</h4>
+                    <h6>Jop Title</h6>
+                </div>
+                <div class="col-10 text-center" style="padding-top:5%;">
+                    <div class="row"><h1>Post Title </h1> </div>
+                    <div class="row"><h3>Post Subtitle </h3> </div>
+                </div>
+            </div>
+            <div style="padding: 2%;">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nihil, expedita nobis aut, dolores at magnam pariatur laboriosam illum officiis corrupti deleniti perspiciatis sunt enim, dolorem libero quas in itaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat debitis similique molestias amet deserunt, inventore aliquid quidem voluptate voluptatum dolorem aspernatur tempora! Unde adipisci earum repellendus voluptate dolores ipsam ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam suscipit facere natus consectetur beatae dignissimos aliquid voluptatum voluptates ratione commodi velit fuga aliquam voluptatem omnis accusantium, ut officiis neque.</p>
+            </div>
+        </div>
+        <div class="postcard">
+            <div class="row text-center">
+                <div class="col-2">
+                    <img src="./img/FProfile.png" alt="profile picture" class="img-fluid">
+                    <h4>NAME</h4>
+                    <h6>Jop Title</h6>
+                </div>
+                <div class="col-10 text-center" style="padding-top:5%;">
+                    <div class="row"><h1>Post Title </h1> </div>
+                    <div class="row"><h3>Post Subtitle </h3> </div>
+                </div>
+            </div>
+            <div style="padding: 2%;">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nihil, expedita nobis aut, dolores at magnam pariatur laboriosam illum officiis corrupti deleniti perspiciatis sunt enim, dolorem libero quas in itaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat debitis similique molestias amet deserunt, inventore aliquid quidem voluptate voluptatum dolorem aspernatur tempora! Unde adipisci earum repellendus voluptate dolores ipsam ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam suscipit facere natus consectetur beatae dignissimos aliquid voluptatum voluptates ratione commodi velit fuga aliquam voluptatem omnis accusantium, ut officiis neque.</p>
+            </div>
+        </div>
+
+    </div>
+    <div id="posting">
+        <div>
+            <h6>Posting is only allowd for Compony Employee only</h6>
+            <p> If you are a compony employee please enter the password </p>
+            <div style="display: flex;">
+                <input id="postpassword" type="password" style="margin: auto; margin-right: 5%; width: 50%; text-align: center; border-radius: 25px;" placeholder="Enter Your Password">
+                <button id="employeesubmit" type="submit" onclick="employeecheck()" style="border-radius: 25px; margin-left:0; margin-right: auto;" >SUBMIT</button>
+            </div>
+            <br>
+            <P>If you are a compony employee and dosnt have a password, please contact our IT department with your compony identification at ComponyBlog@compony.com</P>
+
+        </div>
+        <div id="postinput">
+            <input id="employeeName" type="text" style="width: 35%;" placeholder="Enter Your Name" disabled>
+            <input id="employeeJT" type="text" style="width: 20%;" placeholder="Enter Your Jop Title" disabled>
+            <select id="gender" type="radio" style="width: 8.5%;" disabled>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+            <input id="postTitle" type="text" placeholder="Enter Post Title " style="width: 65%;" disabled><br>
+            <input id="postSubtitle" type="text" placeholder="Enter Post Sub-title" style="width: 65%;" disabled><br>
+            <textarea rows="7" id="blogtext" type="text" style="width: 65%; height: 100%;" placeholder="Enter Blog Text " disabled></textarea><br>
+            <button id="postsubmit" type="submit" onclick="post()" style="border-radius: 25px; margin-left:0; margin-right: auto;"  disabled>SUBMIT POST</button>
+
+        </div>
+    </div>
+</body>
+<footer>
+ CopyRight © cc 2021
+</footer>
+</html>

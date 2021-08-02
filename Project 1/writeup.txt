@@ -1,0 +1,38 @@
+as requierd from Simplilearne team in my "Full Stack Web Developer - MEAN Stack" Course, 
+at the first step of the course " Get started with web development " assessment section.
+Project 1 : Simply Blogging , as follows :
+
+-Background of the problem statement:
+
+	As the project is progressing, management has asked you to create a blog page for the company website so 
+	that newsletters and other informative articles can be posted by experts for the benefit of the customers.
+
+-You must use the following:
+
+	Visual Studio Code.
+	Bootstrap.
+	HTML/CSS.
+	Javascript.
+	GitHub.
+
+-Following requirements should be met:
+
+	A few of the source codes should be tracked on GitHub repositories. 
+	You need to document the tracked files that are ignored during the final push to the GitHub repository.
+
+	The submission of your GitHub repository link is mandatory. In order to track your task, you need to share the link of the repository in the document.
+
+	The step-by-step process involved in completing this task should be documented.
+
+since the page requierd is not a very needy one, where the many pages on the many sites on the internet would usally need
+so much configuration and toneing with the rest of the site .but lukly this one dose not . which make it a very simple one .
+
+the tools requiered to be used is a mean stream tools for any devoloper where using them will not be of any problem.
+
+as I have said about the tools the requierment of the submission is the same, where this is the mean way to submit most of the 
+project at many platforms and some universiteis also. 
+
+the page i designed is a simple one wher its view level is general to any one with access to the page, however the submition
+to the page requiers a password to limit any indivsual which is not an employee of the compony to post any blog.
+the authinticatin is not necessery because the information posted to the page is not a delicate information. 
+and since this page is manged by the compony it department, any unwanted post shold be easily deleted.
